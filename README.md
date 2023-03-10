@@ -1,5 +1,17 @@
-# LibGolf
+# Efforts to fuzz parsers with ELF binaries that are produced LibGolf (or based on)
 
+Checkout `/examples/04_afl/` directory, not implemented fixed inputs yet.
+
+### In Scope
+
+[x] libelfmaster
+[x] binutils-gdb/readelf
+
+## first try experiences
+
+
+
+# Original README
 ## A Library for Binary Golf
 
 This library helps with Binary Golf. The idea is to get out of your way as soon as possible, and you let you get straight to customizing fields within the ELF and Program header.
