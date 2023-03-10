@@ -4,11 +4,12 @@ Checkout `/examples/04_afl/` directory, not implemented fixed inputs yet.
 
 ### In Scope
 
-[x] libelfmaster
-[x] binutils-gdb/readelf
+- [x] libelfmaster
+- [x] binutils-gdb/readelf
 
 ## first try experiences
 
+![sc-main](./examples/04_afl/screenshots/first-run.png)
 
 
 # Original README
