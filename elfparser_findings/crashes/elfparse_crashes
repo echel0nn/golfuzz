@@ -1,0 +1,147 @@
+source /usr/lib/python3.10/site-packages/exploitable-1.32-py3.10.egg/exploitable/exploitable.py
+file /home/dante/golfuzz/examples/04_afl/elfparser/build/elfparser-cli
+echo Crash\ sample:\ 'fuzzer01:id:000000,sig:11,src:000000,time:319,execs:372,op:flip1,pos:34'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000000,sig:11,src:000000,time:319,execs:372,op:flip1,pos:34'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000001,sig:11,src:000000,time:538,execs:619,op:flip1,pos:57'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000001,sig:11,src:000000,time:538,execs:619,op:flip1,pos:57'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000003,sig:11,src:000000,time:17650,execs:19426,op:int16,pos:42,val:+32'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000003,sig:11,src:000000,time:17650,execs:19426,op:int16,pos:42,val:+32'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000004,sig:11,src:000000,time:17655,execs:19427,op:int16,pos:42,val:be:+32'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000004,sig:11,src:000000,time:17655,execs:19427,op:int16,pos:42,val:be:+32'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000009,sig:11,src:000000,time:23271,execs:25645,op:havoc,rep:4'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000009,sig:11,src:000000,time:23271,execs:25645,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000010,sig:11,src:000000,time:23418,execs:25824,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000010,sig:11,src:000000,time:23418,execs:25824,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000011,sig:11,src:000000,time:23469,execs:25882,op:havoc,rep:2'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000011,sig:11,src:000000,time:23469,execs:25882,op:havoc,rep:2'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000012,sig:11,src:000000,time:23702,execs:26150,op:havoc,rep:4'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000012,sig:11,src:000000,time:23702,execs:26150,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000013,sig:11,src:000000,time:25095,execs:27787,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000013,sig:11,src:000000,time:25095,execs:27787,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000014,sig:11,src:000000,time:26093,execs:28954,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000014,sig:11,src:000000,time:26093,execs:28954,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000015,sig:11,src:000000,time:29071,execs:32490,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000015,sig:11,src:000000,time:29071,execs:32490,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000016,sig:11,src:000000,time:29151,execs:32586,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000016,sig:11,src:000000,time:29151,execs:32586,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000017,sig:11,src:000000,time:31123,execs:34936,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000017,sig:11,src:000000,time:31123,execs:34936,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000018,sig:11,src:000000,time:32870,execs:36983,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000018,sig:11,src:000000,time:32870,execs:36983,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000019,sig:11,src:000000,time:34945,execs:39448,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000019,sig:11,src:000000,time:34945,execs:39448,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000020,sig:11,src:000000,time:37722,execs:42698,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000020,sig:11,src:000000,time:37722,execs:42698,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000021,sig:11,src:000000,time:41357,execs:46967,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000021,sig:11,src:000000,time:41357,execs:46967,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000022,sig:11,src:000000,time:49457,execs:56556,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000022,sig:11,src:000000,time:49457,execs:56556,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000023,sig:11,src:000000,time:55924,execs:64129,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000023,sig:11,src:000000,time:55924,execs:64129,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000024,sig:11,src:000000,time:62501,execs:71920,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000024,sig:11,src:000000,time:62501,execs:71920,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000025,sig:11,src:000000,time:63041,execs:72566,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000025,sig:11,src:000000,time:63041,execs:72566,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000026,sig:11,src:000000,time:72190,execs:83264,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000026,sig:11,src:000000,time:72190,execs:83264,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000027,sig:11,src:000000,time:74167,execs:85606,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000027,sig:11,src:000000,time:74167,execs:85606,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000028,sig:11,src:000000,time:79646,execs:92055,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000028,sig:11,src:000000,time:79646,execs:92055,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000029,sig:11,src:000000,time:107836,execs:125267,op:havoc,rep:4'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000029,sig:11,src:000000,time:107836,execs:125267,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000030,sig:11,src:000006,time:179831,execs:207019,op:int16,pos:42,val:+32'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000030,sig:11,src:000006,time:179831,execs:207019,op:int16,pos:42,val:+32'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000031,sig:11,src:000033,time:227356,execs:259585,op:int16,pos:42,val:+32'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000031,sig:11,src:000033,time:227356,execs:259585,op:int16,pos:42,val:+32'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000032,sig:11,src:000034,time:250972,execs:285699,op:int16,pos:42,val:+32'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000032,sig:11,src:000034,time:250972,execs:285699,op:int16,pos:42,val:+32'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000033,sig:11,src:000045,time:281020,execs:319187,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000033,sig:11,src:000045,time:281020,execs:319187,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000034,sig:11,src:000045,time:281330,execs:319544,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000034,sig:11,src:000045,time:281330,execs:319544,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000035,sig:11,src:000045,time:331155,execs:378473,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000035,sig:11,src:000045,time:331155,execs:378473,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000036,sig:11,src:000045,time:333320,execs:381002,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000036,sig:11,src:000045,time:333320,execs:381002,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000037,sig:11,src:000045,time:374275,execs:429383,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000037,sig:11,src:000045,time:374275,execs:429383,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000038,sig:11,src:000135,time:601663,execs:683730,op:havoc,rep:4'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000038,sig:11,src:000135,time:601663,execs:683730,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000039,sig:11,src:000135,time:614016,execs:698507,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000039,sig:11,src:000135,time:614016,execs:698507,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000040,sig:11,src:000135,time:614334,execs:698892,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000040,sig:11,src:000135,time:614334,execs:698892,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000041,sig:11,src:000135,time:620965,execs:706909,op:havoc,rep:2'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000041,sig:11,src:000135,time:620965,execs:706909,op:havoc,rep:2'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000042,sig:11,src:000135,time:636481,execs:725615,op:havoc,rep:4'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000042,sig:11,src:000135,time:636481,execs:725615,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000043,sig:11,src:000135,time:653519,execs:746096,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000043,sig:11,src:000135,time:653519,execs:746096,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000044,sig:11,src:000135,time:655766,execs:748815,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000044,sig:11,src:000135,time:655766,execs:748815,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000045,sig:11,src:000160,time:756162,execs:865864,op:havoc,rep:16'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000045,sig:11,src:000160,time:756162,execs:865864,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000046,sig:11,src:000160,time:756602,execs:866049,op:havoc,rep:2'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000046,sig:11,src:000160,time:756602,execs:866049,op:havoc,rep:2'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000047,sig:11,src:000160,time:757129,execs:866310,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000047,sig:11,src:000160,time:757129,execs:866310,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000048,sig:11,src:000160,time:757163,execs:866329,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000048,sig:11,src:000160,time:757163,execs:866329,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000049,sig:11,src:000160,time:757832,execs:866660,op:havoc,rep:4'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000049,sig:11,src:000160,time:757832,execs:866660,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000050,sig:11,src:000164,time:838728,execs:916949,op:int16,pos:42,val:be:+32'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000050,sig:11,src:000164,time:838728,execs:916949,op:int16,pos:42,val:be:+32'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000051,sig:11,src:000170,time:883677,execs:967683,op:havoc,rep:8'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000051,sig:11,src:000170,time:883677,execs:967683,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer01:id:000052,sig:11,src:000200,time:1101165,execs:1164958,op:flip1,pos:57'\n
+run -f /home/dante/golfuzz/examples/04_afl/elfparser/build/crashes/'fuzzer01:id:000052,sig:11,src:000200,time:1101165,execs:1164958,op:flip1,pos:57'
+exploitable
+quit

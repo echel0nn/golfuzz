@@ -1,12 +1,13 @@
 # Efforts to fuzz parsers with ELF binaries that are produced LibGolf (or based on)
 
-Checkout `/examples/04_afl/` directory, not implemented fixed inputs yet.
-
+Checkout for the fuzzing strategy at ![oof.c](./examples/04_afl/oof.c)
+### To-Do
+- [ ] fixed input fuzzing 
 ### In Scope
 
-- [x] libelfmaster
-- [x] binutils-gdb/readelf
-
+- [x] binutils-gdb/readelf (no crash yet)
+- [x] libelfmaster ![/crashes/](./libelfmaster_findings/libelfmaster_crashes/)
+- [x] elfparser ![/crashes/](./elfparser_findings/crashes/)
 ## first try experiences
 
 ![sc-main](./examples/04_afl/screenshots/first-run.png)
