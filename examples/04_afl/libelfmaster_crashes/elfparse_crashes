@@ -1,0 +1,42 @@
+source /usr/lib/python3.10/site-packages/exploitable-1.32-py3.10.egg/exploitable/exploitable.py
+file /home/dante/golfuzz/examples/04_afl/elfparse
+echo Crash\ sample:\ 'fuzzer02:id:000000,sig:11,src:000153,time:56953,execs:11123,op:flip1,pos:57'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer02:id:000000,sig:11,src:000153,time:56953,execs:11123,op:flip1,pos:57'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000000,sig:11,src:000008,time:9187953,execs:21986403,op:int16,pos:16,val:+1'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000000,sig:11,src:000008,time:9187953,execs:21986403,op:int16,pos:16,val:+1'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000001,sig:11,src:000008,time:9188442,execs:21990002,op:int32,pos:42,val:+32'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000001,sig:11,src:000008,time:9188442,execs:21990002,op:int32,pos:42,val:+32'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000002,sig:11,src:000008,time:9188852,execs:21992998,op:havoc,rep:8'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000002,sig:11,src:000008,time:9188852,execs:21992998,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000003,sig:11,src:000009,time:9188945,execs:21993676,op:flip1,pos:16'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000003,sig:11,src:000009,time:9188945,execs:21993676,op:flip1,pos:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000010,sig:11,src:000014+000113,time:9198300,execs:22060943,op:splice,rep:4'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000010,sig:11,src:000014+000113,time:9198300,execs:22060943,op:splice,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000012,sig:11,src:000018,time:9205041,execs:22106848,op:flip2,pos:16'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000012,sig:11,src:000018,time:9205041,execs:22106848,op:flip2,pos:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000029,sig:11,src:000117,time:9236119,execs:22262825,op:havoc,rep:2'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000029,sig:11,src:000117,time:9236119,execs:22262825,op:havoc,rep:2'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000030,sig:11,src:000121+000130,time:9237347,execs:22263691,op:splice,rep:4'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000030,sig:11,src:000121+000130,time:9237347,execs:22263691,op:splice,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000032,sig:11,src:000137,time:9241712,execs:22290916,op:havoc,rep:2'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000032,sig:11,src:000137,time:9241712,execs:22290916,op:havoc,rep:2'
+exploitable
+echo Crash\ sample:\ 'fuzzer05:id:000026,sig:11,src:000023,time:68708,execs:393306,op:havoc,rep:4'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer05:id:000026,sig:11,src:000023,time:68708,execs:393306,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000003,sig:11,src:000006+000125,time:19193,execs:133735,op:splice,rep:16'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer03:id:000003,sig:11,src:000006+000125,time:19193,execs:133735,op:splice,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000042,sig:11,src:000050+000083,time:436793,execs:2015136,op:splice,rep:4'\n
+run /home/dante/golfuzz/examples/04_afl/crashes/'fuzzer03:id:000042,sig:11,src:000050+000083,time:436793,execs:2015136,op:splice,rep:4'
+exploitable
+quit
