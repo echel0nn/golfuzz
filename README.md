@@ -1,4 +1,4 @@
-# Efforts to fuzz parsers with ELF binaries that are produced LibGolf (or based on)
+# Efforts to fuzz parsers with ELF binaries that are produced via LibGolf (or based on)
 
 Checkout for the fuzzing strategy at ![oof.c](./examples/04_afl/oof.c)
 ### To-Do

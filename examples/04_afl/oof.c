@@ -40,10 +40,13 @@ void *afl_custom_init(void *afl) {
  */
 size_t afl_custom_post_process(post_state_t *data, unsigned char *in_buf,
                                unsigned int len, unsigned char **out_buf) {
+
+  if (len < 126)
+    return 0; // libgolf's smallest bin
+
   // need to keep the position
   unsigned int pos = 0;
   unsigned char *new_buf = malloc(sizeof(RawBinary));
-  char *argv = "nonsense";
   INIT_ELF(X86_64, 64);
 
   ehdr->e_ident[EI_CLASS] = (uint8_t *)(in_buf + pos);
