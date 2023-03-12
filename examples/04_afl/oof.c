@@ -89,11 +89,11 @@ size_t afl_custom_post_process(post_state_t *data, unsigned char *in_buf,
    * - Text Segment
    */
   memcpy(new_buf, ehdr, ehdr_size);
-  memcpy(new_buf + phdr_size, phdr, phdr_size);
+  memcpy(new_buf + ehdr_size, phdr, phdr_size);
   memcpy(new_buf + ehdr_size + phdr_size, elf->text.text_segment,
          elf->text.text_size);
   *out_buf = new_buf;
-  return 84;
+  return ehdr_size + phdr_size + elf->text.text_size;
 }
 void afl_custom_deinit(post_state_t *data) {
   free(data->buf);

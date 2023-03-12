@@ -29,3 +29,10 @@
 5) `CC=afl=gcc-fast CXX=afl-g++-fast make -j24` 
 6) copy xcellerator's deadbytes.bin example into `samples/`
 7) `afl-fuzz -p fast -D -i samples/ -t 80 -o elfmaster_sync_dir -M fuzzer01 -- ./elfparser-cli @@`
+
+## for radare2
+1) `git clone https://github.com/radareorg/radare2.git`
+2) `cd radare2`
+3) `CC=afl-gcc-fast CXX=afl-g++-fast ./configure`
+4) `CC=afl-gcc-fast CXX=afl-g++-fast make -j24`
+5) `afl-fuzz -p explore -D -i samples/ -t 80 -o r2_sync_dir -M fuzzer01 -- /home/dante/golfuzz/examples/04_afl/radare2/binr/radare2/radare2 -qq -AA @@`

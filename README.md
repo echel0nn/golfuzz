@@ -8,6 +8,8 @@ Checkout for the fuzzing strategy at ![oof.c](./examples/04_afl/oof.c)
 - [x] binutils-gdb/readelf (no crash yet)
 - [x] libelfmaster ![/crashes/](./libelfmaster_findings/libelfmaster_crashes/)
 - [x] elfparser ![/crashes/](./elfparser_findings/crashes/)
+- [x] radare2 (1 crash)
+
 ## first try experiences
 
 ![sc-main](./examples/04_afl/screenshots/first-run.png)
