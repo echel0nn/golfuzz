@@ -8,7 +8,8 @@ Checkout for the fuzzing strategy at ![oof.c](./examples/04_afl/oof.c)
 - [x] binutils-gdb/readelf (no crash yet)
 - [x] libelfmaster ![/crashes/](./libelfmaster_findings/libelfmaster_crashes/)
 - [x] elfparser ![/crashes/](./elfparser_findings/crashes/)
-- [x] radare2 (1 crash)
+- [x] radare2 (1 crash) (suggested fix merged: https://github.com/radareorg/radare2/pull/21504)
+
 
 ## first try experiences
 
