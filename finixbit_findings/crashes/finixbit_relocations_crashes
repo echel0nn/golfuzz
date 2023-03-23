@@ -1,0 +1,81 @@
+source /usr/lib/python3.10/site-packages/exploitable-1.32-py3.10.egg/exploitable/exploitable.py
+file /home/dante/tmp/elf-parser/examples/relocations
+echo Crash\ sample:\ 'fuzzer03:id:000000,sig:11,src:000000,time:2783,execs:18195,op:int16,pos:3,val:+512'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000000,sig:11,src:000000,time:2783,execs:18195,op:int16,pos:3,val:+512'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000001,sig:11,src:000001,time:4230,execs:27695,op:flip1,pos:60'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000001,sig:11,src:000001,time:4230,execs:27695,op:flip1,pos:60'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000002,sig:11,src:000001,time:4240,execs:27745,op:flip1,pos:61'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000002,sig:11,src:000001,time:4240,execs:27745,op:flip1,pos:61'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000003,sig:11,src:000001,time:7884,execs:51173,op:havoc,rep:8'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000003,sig:11,src:000001,time:7884,execs:51173,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000004,sig:11,src:000001,time:8327,execs:54111,op:havoc,rep:4'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000004,sig:11,src:000001,time:8327,execs:54111,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000005,sig:11,src:000011,time:12862,execs:80634,op:havoc,rep:2'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000005,sig:11,src:000011,time:12862,execs:80634,op:havoc,rep:2'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000006,sig:11,src:000011,time:13068,execs:81990,op:havoc,rep:8'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000006,sig:11,src:000011,time:13068,execs:81990,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000007,sig:11,src:000011,time:13172,execs:82668,op:havoc,rep:8'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000007,sig:11,src:000011,time:13172,execs:82668,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000008,sig:11,src:000012,time:16343,execs:101173,op:int8,pos:41,val:+100'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000008,sig:11,src:000012,time:16343,execs:101173,op:int8,pos:41,val:+100'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000009,sig:11,src:000012,time:16507,execs:102070,op:int16,pos:39,val:+512'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000009,sig:11,src:000012,time:16507,execs:102070,op:int16,pos:39,val:+512'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000010,sig:11,src:000012,time:16507,execs:102072,op:int16,pos:39,val:+1000'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000010,sig:11,src:000012,time:16507,execs:102072,op:int16,pos:39,val:+1000'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000011,sig:07,src:000012,time:17264,execs:106549,op:havoc,rep:16'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000011,sig:07,src:000012,time:17264,execs:106549,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000012,sig:11,src:000014,time:23854,execs:146927,op:havoc,rep:4'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000012,sig:11,src:000014,time:23854,execs:146927,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000013,sig:11,src:000014,time:28754,execs:179106,op:havoc,rep:8'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000013,sig:11,src:000014,time:28754,execs:179106,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000014,sig:11,src:000019,time:55015,execs:339624,op:havoc,rep:8'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000014,sig:11,src:000019,time:55015,execs:339624,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000015,sig:11,src:000028,time:61257,execs:379645,op:flip2,pos:41'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000015,sig:11,src:000028,time:61257,execs:379645,op:flip2,pos:41'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000016,sig:11,src:000028,time:67566,execs:417163,op:havoc,rep:4'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000016,sig:11,src:000028,time:67566,execs:417163,op:havoc,rep:4'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000017,sig:11,src:000030,time:70699,execs:436776,op:arith8,pos:40,val:+24'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000017,sig:11,src:000030,time:70699,execs:436776,op:arith8,pos:40,val:+24'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000018,sig:11,src:000038,time:252406,execs:529481,op:flip1,pos:60'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000018,sig:11,src:000038,time:252406,execs:529481,op:flip1,pos:60'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000019,sig:11,src:000039,time:258287,execs:564139,op:flip1,pos:60'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000019,sig:11,src:000039,time:258287,execs:564139,op:flip1,pos:60'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000020,sig:11,src:000040,time:269007,execs:626671,op:havoc,rep:16'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000020,sig:11,src:000040,time:269007,execs:626671,op:havoc,rep:16'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000021,sig:11,src:000048,time:275024,execs:661741,op:flip1,pos:41'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000021,sig:11,src:000048,time:275024,execs:661741,op:flip1,pos:41'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000022,sig:11,src:000077,time:728135,execs:928338,op:havoc,rep:8'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000022,sig:11,src:000077,time:728135,execs:928338,op:havoc,rep:8'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000023,sig:06,src:000078,time:729825,execs:938714,op:flip1,pos:41'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000023,sig:06,src:000078,time:729825,execs:938714,op:flip1,pos:41'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000024,sig:11,src:000026,time:805747,execs:1314627,op:havoc,rep:2'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000024,sig:11,src:000026,time:805747,execs:1314627,op:havoc,rep:2'
+exploitable
+echo Crash\ sample:\ 'fuzzer03:id:000025,sig:11,src:000029,time:810926,execs:1345299,op:havoc,rep:4'\n
+run -f /home/dante/tmp/elf-parser/examples/crashes/'fuzzer03:id:000025,sig:11,src:000029,time:810926,execs:1345299,op:havoc,rep:4'
+exploitable
+quit
