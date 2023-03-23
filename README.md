@@ -9,7 +9,8 @@ Checkout for the fuzzing strategy at ![oof.c](./examples/04_afl/oof.c)
 - [x] libelfmaster ![/crashes/](./libelfmaster_findings/libelfmaster_crashes/)
 - [x] elfparser ![/crashes/](./elfparser_findings/crashes/)
 - [x] radare2 (1 crash) (suggested fix merged: https://github.com/radareorg/radare2/pull/21504)
-
+	- ![CVE-2023-1605](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1605)
+- [x] finixbit/elf-parser
 
 ## first try experiences
 
