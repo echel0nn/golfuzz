@@ -12,6 +12,8 @@
 			segment->memsz = obj->phdr64[iter->index].p_memsz;
 ```
 
+* insufficient check when e_phnum is bigger than file size 
+
 ## `3.bin` (ELF64) crashes at `libelfmaster.c:2366 elf_segment_iterator_next`
 
 ```c 

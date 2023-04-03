@@ -17,8 +17,8 @@
 
 1) `git clone https://github.com/elfmaster/libelfmaster.git`
 2) `cd libelfmaster`
-3) `CC=afl-gcc-fast CXX=afl-g++-fast PKG_CONFIG_PATH=./build ./configure --prefix=$PWD` if fails remove dl dependency from REQUIRED
-5) `CC=afl-gcc-fast CXX=afl-g++-fast -I $PWD/../src/ make -j24 all <- actually need only elfparse.c to be compiled, if others fail it's going to be ok
+3) `CC=afl-cc CXX=afl-c++ CFLAGS="-g -flto=auto" CXXFLAGS=-g CPPFLAGS=-g AR=llvm-ar PKG_CONFIG_PATH=./build ./configure  --prefix=$PWD` if fails remove dl dependency from REQUIRED
+5) `CC=afl-cc CXX=afl-c++ CFLAGS="-g -flto=auto" CXXFLAGS=-g CPPFLAGS=-g AR=llvm-ar make -j24 all` `note: do it again in examples/`
 5) `afl-fuzz -D -i samples/ -t 80 -o elfmaster_sync_dir -M fuzzer05 -- /home/dante/golfuzz/examples/04_afl/elfparse @@`
 
 ## for elfparser  (traditional fuzzing)
