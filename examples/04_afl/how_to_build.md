@@ -64,3 +64,7 @@ clean:
 4) `cd examples` and choose a target
 5) `afl-fuzz -p seek -D -i samples/ -t 80 -o sync_dir -M fuzzer01 -- ./relocations @@
 
+## for eliben/pyelftools
+1) git clone `https://github.com/jwilk/python-afl`
+2) add `import afl; afl.init()` lines to "readelf.py" sample
+3) run `py-afl-fuzz -p seek -D -i `deadbytes_samples_dir/ -t 80 -o readelf -M fuzzer05 -- python readelf.py -S @@`
