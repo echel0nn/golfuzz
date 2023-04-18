@@ -12,7 +12,9 @@ Checkout for the fuzzing strategy at ![oof.c](./examples/04_afl/oof.c)
 	- [CVE-2023-1605](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1605)
 - [x] finixbit/elf-parser [/crashes/](./finixbit_findings/crashes/)
 	- relocations 26 crashes 
-- [ ] eliben/pyelftools (no crash yet)
+- [x] eliben/pyelftools (unhandled e_version but not accepted)
+- [x] jacob-baines/elfparser (/crashes/)[jacob-baines-elfparser-findings]
+
 
 ## first try experiences
 
