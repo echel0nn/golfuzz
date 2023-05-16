@@ -76,7 +76,8 @@ clean:
 1) `CC=afl-cc CXX=afl-c++ CXXFLAGS="-fno-omit-frame-pointer -g -O2 -fsanitize=address,fuzzer-no-link" CPPFLAGS="-fno-omit-frame-pointer -g -O2 -fsanitize=address,fuzzer-no-link" AR=llvm-ar
 python setup.py build`
 2) `py-afl-fuzz -p rare -D -i ~/sample_dir/ -t 8000 -o miasm_sync -S f7 -- python ./build/lib.linux-x86_64-cpython-310/b.py`
-3) ```python
+3) 
+```python
 # b.py content
 import sys
 import os
